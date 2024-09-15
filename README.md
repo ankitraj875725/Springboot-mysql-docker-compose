@@ -40,3 +40,14 @@ $ docker-compose start
 **To known more about container**
 $ docker-compose ps
 
+# Tag Docker Image
+$ sudo docker tag <image-name> <tag-name>
+
+Ex : $ sudo docker tag spring-boot-mysql-app ankitraj87/docker-compose
+
+# Login into Docker Hub Account
+$ sudo docker login
+
+# Push Docker Image to Docker Hub
+$ sudo docker push ankitraj87/docker-compose
+
