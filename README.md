@@ -17,7 +17,7 @@ Execute Spring Boot App with MySQL DB using Docker Compose
 ===============================================================
 
 # clone git repo
-git clone https://github.com/ashokitschool/spring-boot-mysql-docker-compose.git
+git clone https://github.com/ankitraj875725/Springboot-mysql-docker-compose.git
 
 # package our application
 mvn clean package
@@ -27,4 +27,16 @@ sudo docker build -t spring-boot-mysql-app .
 
 # Create Containers using Docker Compose in detached mode
 sudo docker-compose up -d
+
+**To delete container**
+$ docker-compose down
+
+**To stop container**
+$ docker-compose stop
+
+**To start container**
+$ docker-compose start
+
+**To known more about container**
+$ docker-compose ps
 
